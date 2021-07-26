@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: gray;
+}
+.container{
+    width: 1350px;
+    margin: auto;
+}
+.container-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+}
+.logo img {
+    display: block;
+}
+.menuarea{
+    padding-top: 8px;
+    color: white;
+}
+.menu-item{
+    float: left;
+    margin-right: 10px;
+}
+.menu-itemv{
+    float: left;
+    margin-right: 3px;
+}
+.v {
+    float: left;
+    margin-right: 10px;
+}
+.v img{
+    width: 15px;
+    height: 9px;
+    object-fit: cover;
+}
+.signup{
+    border: 1px solid white;
+    border-radius: 0.5em;
+    color: white;
+    float: right;
+    margin-right: 90px;
+    position: relative;
+    bottom: 7px;
+}
+.signuptext{
+    padding: 8px;
+}
+.signin{
+    color: white;
+    float: right;
+    margin-right: 15px;
+}
+.search{
+    border: 1px solid white;
+    border-radius: 0.3em;
+    float: right;
+    vertical-align:middle;
+    margin-right: 15px;
+    position: relative;
+    bottom: 8px;
+    padding: 3px;
+}
+.searchtext{
+    padding-top: 7px;
+    color:white;
+    float: right;
+    margin-right: 7px;
+    vertical-align:middle;
+    margin-left : 8px;
+}
+.searchbutton{
+    float: right;
+    margin-left: 90px;
+    vertical-align:middle;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
