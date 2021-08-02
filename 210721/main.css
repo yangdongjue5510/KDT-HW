@@ -21,7 +21,7 @@ body{
 .logo img {
     display: block;
 }
-.menuarea{
+.menu-area{
     padding-top: 8px;
     color: white;
 }
@@ -29,15 +29,15 @@ body{
     float: left;
     margin-right: 10px;
 }
-.menu-itemv{
+.menu-item-with-mark{
     float: left;
     margin-right: 3px;
 }
-.v {
+.down_arrow {
     float: left;
     margin-right: 10px;
 }
-.v img{
+.down_arrow img{
     width: 15px;
     height: 9px;
     object-fit: cover;
@@ -51,7 +51,7 @@ body{
     position: relative;
     bottom: 7px;
 }
-.signuptext{
+.signup-text{
     padding: 8px;
 }
 .signin{
@@ -69,7 +69,7 @@ body{
     bottom: 8px;
     padding: 3px;
 }
-.searchtext{
+.search-text{
     padding-top: 7px;
     color:white;
     float: right;
@@ -77,7 +77,7 @@ body{
     vertical-align:middle;
     margin-left : 8px;
 }
-.searchbutton{
+.search-button{
     float: right;
     margin-left: 90px;
     vertical-align:middle;
